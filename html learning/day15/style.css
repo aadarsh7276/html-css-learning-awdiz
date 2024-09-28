@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
     font-size: 42px;
-    /* text-align: center; */
-  }
-
+  font-family:  sans-serif;
+}
   #screen {
     width: 100%;
     border: 2px solid white;
@@ -15,7 +14,7 @@
     color: white;
     width: 97%;
     margin: auto;
-    height: 60px;
+    height: 65px;
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
@@ -161,29 +160,186 @@
   }
   #body{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   #body-left{
-    width: 30%;
-    height: 400px;
-    border: 1px solid red;
-    
+    width: 28%;
+    border-radius: 5px;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-color: #121212;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
   }
   #upperLeft{
     /* width: 100%; */
     display: flex;
-    /* justify-content: space-around; */
-    height: 60px;
+    height: 90px;
     align-items: center;
+    /* border: 2px solid blue; */
+    justify-content: space-evenly;
+  }
+  .libraryIcon{
+    width: 80%;
+    /* display: flex; */
+    font-weight: 500;
+  }
+  .upper-left-color{
+    color: grey;
+    /* border: 1px solid yellow; */
+    /* width: 80%; */
+  }
+  .bookmarkIcon{
+    width: 16%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .addicon{
+    width: 16%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .upper-left-color>p{
+    font-size: 20px;
+    /* border: 1px solid green; */
   }
   #body-right{
     width: 70%;
     height: 400px;
     border: 1px solid white;
   }
-.upper-left-color{
+  #upper-left-second{
+    width: 94%;
+    border: 1px solid #121212;
+    border-radius: 10px;
+    height: 151px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: auto;
+    background-color: #1F1F1F;
+    /* align-items: center; */
+    /* padding-bottom: 50px; */
+  }
+.font-size-upper{
+  font-size: 20px ;
+  font-weight: 600;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 90%;
+  /* margin: auto; */
+}
+.font-size-middle{
+  font-size: 18px;
+  font-weight: 150;
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  
+}
+.button-icon-left{
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: white;
+  height: 40px;
+  width: 30%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+#upper-left-third{
+  width: 94%;
+  border: 1px solid #121212;
+  border-radius: 10px;
+  height: 151px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: auto;
+  background-color: #1F1F1F;
+  /* align-items: center; */
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+.button-icon-left-2{
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: white;
+  height: 40px;
+  width: 40%;
+  margin-left: 20px;
+  /* padding-bottom: 70px; */
+
+}
+.upper-left-forth{
+  font-size: 13px;
+  margin-left: 20px;
   color: grey;
 }
-.upper-left-color>p{
+.cookies-hover:hover{
+  margin-left: 20px;
+  text-decoration: underline;
+}
+.cookies{
+  
+  font-size: 14px;
+  color: white;
+  margin-left: 20px;
+}
+#body-right-width{
+  width: 98%;
+  height: 600px;
+  /* border: 1px solid blue; */
+  margin: auto;
+}
+.head{
+  display: flex;
+} 
+.head-right{
+  display: flex;
+  font-size: 18px;
+  font-weight: 500; 
+  color: white;
+  width: 98%;
+  margin-top: 20px;
+}
+.head-left{
+  /* display: flex; */
+  /* flex-direction: row-reverse; */
+  font-size: 14px;
+  font-weight: 200;
+  color: white;
+  width: 20%;
+  /* border: 1px solid white; */
+}
+.image-container-right{
+  display: flex;
+}
+.image-width{
+  width: 16%;
+  margin-top: 30px;
+}
+.image-width img{
+  border-radius: 50%;
+  width: 90%;
+
+}
+.p-1{
   font-size: 20px;
+  font-weight: 200;
+  color: white;
+  /* white-space: 1px; */
+  /* word-spacing: 2%; */
+  /* letter-spacing: 1px; */
+}
+.p-2{
+  font-size: 20px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 5px;
 }
